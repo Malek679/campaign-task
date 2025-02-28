@@ -23,7 +23,7 @@ public class Campaign {
     private int bidAmount;
     private int campaignFound;
     private boolean status;
-    @OneToOne(cascade = CascadeType.REMOVE)
+    @OneToOne()
     private Town town;
     private int radius;
 }
